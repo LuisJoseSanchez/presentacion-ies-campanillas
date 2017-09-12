@@ -1,25 +1,20 @@
 <!doctype html>
-<html lang="es">
-
+<html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>IES Campanillas</title>
-
-    <meta name="description" content="Instituto público IES Campanillas. Ciclos Formativos.">
-    <meta name="author" content="desarrollo web ciclo de grado superior">
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    
+      <meta name="description" content="Instituto público IES Campanillas. Ciclos Formativos.">
+      <meta name="author" content="Luis José Sánchez">
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+    <link rel="stylesheet" href="css/theme/gris.css">
 
-    <!-- Code syntax highlighting -->
+    <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
-    
+
     <!-- Font Awesome (no está incluido en RevealJS) -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -31,355 +26,407 @@
       link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
-
-    <!--[if lt IE 9]>
-    <script src="lib/js/html5shiv.js"></script>
-    <![endif]-->
   </head>
-
   <body>
-
     <div class="reveal">
-
-      <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-        <section>
-          <h1>IES Campanillas</h1>
-          <h3>Málaga (España)</h3>
-          <p>
+
+      <!--
+        <section data-markdown="presentacion.md"  
+          data-separator-vertical="^\r?\n===\r?\n$">
+        </section>
+      -->
+        <section data-markdown>
+          <textarea data-template>
+            # IES Campanillas
+            ### Málaga (España)
+            
             Instituto público de Enseñanza Secundaria, Bachillerato y Ciclos Formativos.
-          </p>
-          <a href="http://iescampanillas.com/">iescampanillas.com</a>
+
+            [iescampanillas.com](http://iescampanillas.com)
+          </textarea>
         </section>
 
-        <section data-transition="fade">
-          <h2>Oferta educativa <i class="fa fa-graduation-cap"></i></h2>
-          <ul>
-            <li>EDUCACIÓN SECUNDARIA OBLIGATORIA (ESO)</li>
-            <li>EDUCACIÓN ESPECIAL</li>
-            <li>
-              BACHILLERATO
-              <ul>
-                <li>Ciencias de la Naturaleza y la Salud</li>
-                <li>Humanidades y Ciencias Sociales</li>
-              </ul>
-            </li>
-            <li>
-              FORMACIÓN PROFESIONAL BÁSICA
-              <ul>
-                <li>Mantenimiento de Edificios</li>
-                <li>Auxiliar de Informática</li>
-              </ul>
-            </li>
-            <li>
-              CICLO FORMATIVO GRADO MEDIO (CFGM)
-              <ul>
-                <li>Instalaciones de Telecomunicaciones</li>
-                <li>Sistemas Microinformáticos y Redes</li>
-              </ul>
-            </li>
-            <li>
-              CICLO FORMATIVO GRADO SUPERIOR (CFGS)
-              <ul>
-                <li>Desarrollo de Aplicaciones Web</li>
-              </ul>
-            </li>
+        <section data-markdown>
+          <textarea data-template>
+            ## Oferta educativa (1/2) <i class="fa fa-graduation-cap"></i>
 
-          </ul>
+            * EDUCACIÓN SECUNDARIA OBLIGATORIA (ESO)
+
+            * EDUCACIÓN ESPECIAL
+
+            * BACHILLERATO
+              * Ciencias de la Naturaleza y la Salud
+              * Humanidades y Ciencias Sociales
+
+            * FORMACIÓN PROFESIONAL BÁSICA
+              * Mantenimiento de Edificios
+              * Auxiliar de Informática
+          </textarea>
         </section>
 
-        <section data-transition="convex">
-          <h2>Oferta educativa de ciclos formativos <i class="fa fa-laptop"></i></h2>
-          <ul>
-            <li>
-              CICLO FORMATIVO GRADO MEDIO (CFGM)
-              <ul>
-                <li>Instalaciones de Telecomunicaciones</li>
-                <li>Sistemas Microinformáticos y Redes (bilingüe) <i class="fa fa-globe"></i></li>
-              </ul>
-            </li>
-            <li>
-              CICLO FORMATIVO GRADO SUPERIOR (CFGS)
-              <ul>
-                <li>Desarrollo de Aplicaciones Web (bilingüe) <i class="fa fa-globe"></i></li>
-              </ul>
-            </li>
+        <section data-markdown>
+          <textarea data-template>
+            ## Oferta educativa (2/2) <i class="fa fa-graduation-cap"></i>
+            
+            * CICLO FORMATIVO GRADO MEDIO (CFGM)
+              * Instalaciones de Telecomunicaciones
+              * Sistemas Microinformáticos y Redes <i class="fa fa-globe"></i>
 
-          </ul>
-        </section>
+            * CICLO FORMATIVO GRADO SUPERIOR (CFGS)
+              * Desarrollo de Aplicaciones Web <i class="fa fa-suitcase"></i> <i class="fa fa-globe"></i>
+              * Desarrollo de Aplic. Multiplataforma <i class="fa fa-suitcase"></i> <i class="fa fa-globe"></i>
 
-        <section data-transition="concave">
-          <h2>Ciclo Formativo de Grado Superior</h2>
-          <h1>Desarrollo de Aplicaciones Web</h1><h1><i class="fa fa-desktop"></i></h1>
-        </section>
-        
-        <section data-transition="zoom">
-          <img src="img/citic.jpg">
-          <p>
-            <i class="fa fa-map-marker"></i> Edificio CITIC. C/ Pierre Laffitte, 6 - 8. CP 29590 Málaga
-          </p>
-          <p>
-            Parque Tecnológico de Andalucía
-          </p>
+            <small>
+              <i class="fa fa-suitcase"></i> Dual
+              <i class="fa"></i>
+              <i class="fa fa-globe"></i> Bilingüe
+            </small>
+          </textarea>
         </section>
 
-        <section data-transition="zoom">
-          <h2>Desarrollo de Aplicaciones Web</h2>
-          <ul>
-            <li class="fragment">Primer curso <i class="fa fa-arrow-right"></i> 3 trimestres de clases</li>
-            <li class="fragment">Segundo curso <i class="fa fa-arrow-right"></i> 2 trimestres de clases</li>
-            <li class="fragment">Segundo curso <i class="fa fa-arrow-right"></i> 1 trimestre de prácticas en empresa</li>
-          </ul>
-          <p class="fragment grow">2000 horas lectivas contando la FCT</p> 
+        <section data-background="img/edificio_ciclos1200.jpg">
+          <br><br><br><br><br><br><br><br><br>
+          <div class="subtitle">
+            <i class="fa fa-map-marker"></i> Calle de Severo Ochoa, 7 C.P. 29590 Málaga
+            <br>Parque Tecnológico de Andalucía
+          </div>
         </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## Ciclos Formativos de Grado Superior
+            # DAM y DAW
+            # <i class="fa fa-mobile"></i> <i class="fa fa-desktop"></i>  <i class="fa fa-tablet"></i>
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## DAM y DAW
+
+            * Primer curso
+              - 2 trimestres en el aula
+              - 1 trimestre en la empresa
+
+            * Segundo curso
+              - 1 trimestre en el aula
+              - 1 trimestre en la empresa
+              - 1 trimestre de prácticas en empresa (FCT)
+
+            <p>2000 horas en total</p>   
+          </textarea>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              ## Módulos de primero
+              ## Comunes en DAW y DAM
               
-
-        <!-- Example of nested vertical slides -->
-        <section>
-          <section>
-            <h2>Módulos de 1º DAW</h2>
-            <ul>
-              <li>Programación</li>
-              <li>Bases de datos</li>
-              <li>Lenguajes de marcas</li>
-              <li>Entornos de desarrollo</li>
-              <li>Sistemas informáticos</li>
-              <li>Formación y orientación laboral</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Programación</h2>
-            <ul>
-              <li>Variables</li>
-              <li>Entrada y salida de datos</li>
-              <li>Sentencia condicional (if y switch)</li>
-              <li>Bucles</li>
-              <li>Números aleatorios</li>
-              <li>Arrays</li>
-              <li>Funciones</li>
-              <li>Programación orientada a objetos</li>
-              <li>Colecciones y diccionarios</li>
-              <li>Ficheros y paso de parámetros por línea de comandos</li>
-              <li>Aplicaciones web en Java (JSP)</li>
-              <li>Acceso a bases de datos desde Java</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Bases de datos</h2>
-            <ul>
-              <li>Diseño de bases de datos relacionales</li>
-              <li>SQL</li>
-              <li>Aplicación en SqlServer, Oracle y MySql</li>
-              <li>Bases de datos objeto-relacionales en Oracle.</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Entornos de desarrollo</h2>
-            <ul>
-              <li>Metodologías de desarrollo</li>
-              <li>Introducción a Metrica v3</li>
-              <li>Diagramas de clases</li>
-              <li>Diagramas de casos de uso</li>
-              <li>Diagramas de interacción: colaboración y secuencia</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Lenguajes de Marcas</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>XML</li>
-              <li>XQuery</li>
-            </ul>
+              * Programación
+              * Bases de datos
+              * Lenguajes de marcas
+              * Entornos de desarrollo
+              * Sistemas informáticos
+              * Formación y orientación laboral
+            </textarea>
           </section>
 
-          <section>
-            <h2>Sistemas Informáticos</h2>
-              <ul>
-                <li>Historia de la informática, concepto de sistema informático</li>
-                <li>Hardware del sistema (procesador, memoria, placa, almacenamiento)</li>
-                <li>Montaje de equipos</li>
-                <li>Sistema operativo Windows 7 (versiones e instalación usuarios, grupos, permisos, red, gestión avanzada del sistema)
-                <li>Sistema operativo Linux (distribuciones e instalación de Debian, instalación de paquetes y repositorios, usuarios, permisos, directorios, comandos usuales, Shell scripts, cron, configuración de la red, NFS, SAMBA)</li>
-            </ul>
+          <section data-markdown>
+            <textarea data-template>
+              ## Programación
+              
+              * Variables, entrada y salida de datos
+              * Sentencia condicional (if y switch)
+              * Bucles, números aleatorios
+              * Arrays
+              * Funciones
+              * Programación orientada a objetos
+              * Colecciones y diccionarios
+              * Ficheros
+              * Aplicaciones web en Java (JSP)
+              * Acceso a bases de datos desde Java
+            </textarea>
           </section>
 
-          <section>
-            <h2>Formación y orientación laboral</h2>
-              <ul>
-                <li>Prevención</li>
-                <li>Derecho laboral</li>
-                <li>Orientación</li>
-              </ul>
+          <section data-markdown>
+            <textarea data-template>
+              ## Bases de datos
+
+              * Diseño de bases de datos relacionales
+              * SQL
+              * Aplicación en SqlServer, Oracle y MySql
+              * Bases de datos objeto-relacionales en Oracle.
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Entornos de desarrollo
+
+              * Metodologías de desarrollo
+              * Introducción a Metrica v3
+              * Diagramas de clases
+              * Diagramas de casos de uso
+              * Diagramas de interacción: colaboración y secuencia
+            </textarea>
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Lenguajes de Marcas
+              
+              * HTML
+              * CSS
+              * XML
+              * XQuery
+              * JSON
+              * Javascript
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Sistemas Informáticos
+                
+              * Historia de la informática, sist. informático
+              * Hardware del sistema: procesador, memoria, placa, almacenamiento
+              * Montaje de equipos
+              * SO Windows 7: instalación, usuarios, grupos, permisos, red, gestión avanzada del sistema
+              * SO Linux: distribuciones e instalación de Debian, instal. de paquetes y repositorios, usuarios, permisos, directorios, comandos, Shell scripts, cron, conf. de red, NFS, SAMBA
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Formación y orientación laboral
+
+              * Prevención
+              * Derecho laboral
+              * Orientación
+            </textarea>
           </section>
 
         </section>
-        
+
+
+
         <section>
-          <section>
-            <h2>Módulos de 2º DAW</h2>
-            <ul>
-              <li>Desarrollo web en entorno servidor</li>
-              <li>Desarrollo web en entorno cliente</li>
-              <li>Despliegue de aplicaciones web</li>
-              <li>Desarrollo de interfaces web</li>
-              <li>Empresa e iniciativa emprendedora</li>
-              <li>Horas de libre configuración (inglés)</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Módulos de 2º DAW
+            
+              * Desarrollo web en entorno servidor
+              * Desarrollo web en entorno cliente
+              * Despliegue de aplicaciones web
+              * Desarrollo de interfaces web
+              * Empresa e iniciativa emprendedora
+              * Horas de libre configuración (inglés)
+            </textarea>
           </section>
-          <section>
-            <h2>Desarrollo web en entorno servidor</h2>
-            <ul>
-              <li>PHP</li>
-              <li>PHP + MySQL</li>
-              <li>Programación Orientada a Objetos con PHP</li>
-              <li>Modelo Vista Controlador</li>
-              <li>Twig</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Desarrollo web en entorno servidor
+            
+              * PHP
+              * PHP + MySQL
+              * Programación Orientada a Objetos con PHP
+              * Modelo Vista Controlador
+              * Twig
+              * Python + Django
+            </textarea>
           </section>
-          <section>
-            <h2>Desarrollo web en entorno cliente</h2>
-            <ul>
-              <li>HMTL DOM</li>
-              <li>Javascript</li>
-              <li>JQuery, JQuery Ajax, JQuery UI</li>
-              <li>AngularJS</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Desarrollo web en entorno cliente
+            
+              * HMTL DOM
+              * Javascript
+              * JQuery, JQuery Ajax, JQuery UI
+              * Angular
+            </textarea>
           </section>
-          <section>
-            <h2>Despliegue de aplicaciones web</h2>
-            <ul>
-              <li>Servicios FTP y HTTP</li>
-              <li>Configuración de Servidor WEB (IIS y APACHE)</li>
-              <li>Alojamiento web</li>
-              <li>Gestores de contenido</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Despliegue de aplicaciones web
+            
+              * Servicios FTP y HTTP
+              * Configuración de Servidor WEB (IIS y APACHE)
+              * Alojamiento web
+              * Gestores de contenido
+            </textarea>
           </section>
-          <section>
-            <h2>Desarrollo de interfaces web</h2>
-            <ul>
-              <li>Nociones básicas de diseño</li>
-              <li>HTML 5</li>
-              <li>CSS 3</li>
-              <li>Bootstrap</li>
-              <li>Programas de diseño vectorial y retoque fotográfico</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Desarrollo de
+              ## interfaces web
+            
+              * Nociones básicas de diseño
+              * HTML 5
+              * CSS 3
+              * Bootstrap
+              * Programas de diseño vectorial y retoque fotográfico
+            </textarea>
           </section>
-          <section>
-            <h2>Empresa e iniciativa emprendedora</h2>
-            <ul>
-              <li>Idea de negocio</li>
-              <li>El entorno de la empresa</li>
-              <li>Estudio de mercado</li>
-              <li>Financiación, contabilidad, rentabilidad</li>
-              <li>Forma jurídica</li>
-              <li>Trámites de creación</li>
-              <li>Fiscalidad</li>
-              <li>Documentos de pago</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Empresa e iniciativa emprendedora
+            
+              * Idea de negocio
+              * El entorno de la empresa
+              * Estudio de mercado
+              * Financiación, contabilidad, rentabilidad
+              * Forma jurídica
+              * Trámites de creación
+              * Fiscalidad
+              * Documentos de pago
+            </textarea>
           </section>
-          <section>
-            <h2>Horas de libre configuración (Inglés)</h2>
-            <ul>
-              <li>Business English: Preparación del certificado Cambridge English Business Preliminary Level B1</li>
-              <li>Oratoria: Competencias comunicativas. Hablar en público</li>
-              <li>Coaching: Planificación de objetivos, organización del tiempo</li>
-              <li>Entrevistas y curricula</li>
-              <li>Taller de 20h de alemán (nivel básico A1)</li>
-            </ul>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Horas de libre configuración (Inglés)
+            
+              * Business English: Preparación del certificado Cambridge English Business Preliminary Level B1
+              * Oratoria: Competencias comunicativas. Hablar en público
+              * Coaching: Planificación de objetivos, organización del tiempo
+              * Entrevistas y curricula
+            </textarea>
           </section>
+
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## Módulos de 2º DAM
+          
+            * Acceso a datos
+            * Desarrollo de interfaces
+            * Empresa e iniciativa emprendedora
+            * Horas de libre configuración
+            * Programación de servicios y procesos
+            * Programación multimedia y dispositivos móviles
+            * Sistemas de gestión empresarial
+          </textarea>
         </section>
 
         <section>
-          <h2>Tecnologías y herramientas <i class="fa fa-wrench"></i></h2>
-            <img src="img/linuxlogo.jpg" height="100">
-            <img src="img/apache.jpg" height="100">
-            <img src="img/mysqllogo.jpg" height="100">
-            <img src="img/microsoftsqlserver.jpg" height="100">
-            <img src="img/jquerylogo.png" height="100">
-            <img src="img/angularlogo.png" height="100">
-            <img src="img/windows.jpg" height="100">
-            <img src="img/vmware.png" height="100">
-            <img src="img/html5.png" height="100">
-            <img src="img/javalogo.jpg" height="100">
-            <img src="img/netbeans.jpg" height="100">
-            <img src="img/ubuntulogo.png" height="100">
-            <img src="img/phpmyadminlogo.jpg" height="100">
-            <img src="img/geanylogo.jpg" height="100">
-            <img src="img/photoshop.jpg" height="100">
-            <img src="img/phplogo.png" height="100">
-            <img src="img/twig.png" height="100">
-            <img src="img/oraclelogo.png" height="100">
+          <img src="img/linuxlogo.jpg" height="100">
+          <img src="img/apache.jpg" height="100">
+          <img src="img/mysqllogo.jpg" height="100">
+          <img src="img/microsoftsqlserver.jpg" height="100">
+          <img src="img/jquerylogo.png" height="90">
+          <img src="img/angularlogo.png" height="100">
+          <img src="img/firebase.png" height="100">
+          <img src="img/windows.jpg" height="100">
+          <img src="img/vmware.png" height="100">
+          <img src="img/html.png" height="100">
+          <img src="img/css.png" height="100">
+          <img src="img/js.png" height="100">
+          <img src="img/rwd.png" height="100">
+          <img src="img/javalogo.jpg" height="100">
+          <img src="img/netbeans.jpg" height="100">
+          <img src="img/ubuntulogo.png" height="100">
+          <img src="img/phpmyadminlogo.jpg" height="100">
+          <img src="img/geanylogo.jpg" height="100">
+          <img src="img/photoshop.jpg" height="100">
+          <img src="img/phplogo.png" height="100">
+          <img src="img/twig.png" height="100">
+          <img src="img/oraclelogo.png" height="100">
+          <img src="img/logodebian.png" height="100">
+          <img src="img/eclipse.png" height="100">
+          <img src="img/virtualbox.png" height="100">
+          <img src="img/python.png" height="100">
+          <img src="img/django.png" height="70">
+          <img src="img/jsp.png" height="100">
+          <img src="img/android.png" height="100">
+          <img src="img/ionic.png" height="100">
+          <img src="img/mongodb.png" height="100">
+          <img src="img/jhipster.png" height="100">
         </section>
 
         <section>
           <h2>Certificaciones profesionales <i class="fa fa-certificate"></i></h2>
-            <img src="img/cisco.png" height="150">
-            <img src="img/lpi.jpg" height="150">
-            <img src="img/oracle.jpg" height="150">
+          <br>
+            <img src="img/cisco.png" height="200">&nbsp;&nbsp;
+            <img src="img/lpi.jpg" height="200">
+            <!--<img src="img/oracle.jpg" height="150">-->
         </section>
-        
+
         <section data-background="img/pta.jpg">
-          <h2>Prácticas en empresas del PTA y Málaga</h2>
-          <h3>Dos periodos (380 horas) de prácticas en empresas</h3>
-          <h3>1. Desde marzo a junio</h3>
-          <h3>2. Desde septiembre a diciembre</h3>
+          <h2>
+            <div class="subtitle">Prácticas en empresas del PTA y Málaga</div>
+          </h2>
+          <h3>
+            <div class="subtitle">Dos periodos (380 horas) de prácticas en empresas</div>
+          </h3>
+          <h3>
+              <div class="subtitle">1. Desde marzo a junio</div>
+          </h3>
+          <h3>
+              <div class="subtitle">2. Desde septiembre a diciembre</div>
+          </h3>
         </section>
 
-        <section data-background="img/europa.jpg">
-          <h2>Prácticas en la Unión Europea</h2>
-            <ul>
-              <li>IES Campanillas Centro Erasmus+ (2014-2020), para Grado Superior</li>
-              <li>10-15 alumnos cada año del Ciclo Formativo de Grado Superior</li>
-              <li>Destinos actuales: Colonia, Hannover y Dusseldorf (Alemania)</li>
-              <li>Otros destinos anteriores: Helsinki y Kouvola (Finlandia) y Cork (Irlanda))</li>
-              <li>Oportunidades laborales</li>
-              <li>Posibilidad FP Dual</li>
-              <li>Curso Aleman A1/A2</li>
-              <li>Curso Inglés B1/B2</li>
-            </ul>
-        </section>
+        <section data-markdown data-background="img/europa.jpg">
+          <textarea data-template>
+            ## <div class="subtitle">Prácticas en la Unión Europea</div>
 
+            * <div class="subtitle">IES Campanillas Centro Erasmus+ (2014-2020)</div>
+            * <div class="subtitle">10-15 alumnos cada año del CFGS</div>
+            * <div class="subtitle">Destinos actuales: Colonia, Hannover y Dusseldorf (Alemania)</div>
+            * <div class="subtitle">Otros destinos anteriores: Helsinki y Kouvola (Finlandia) y Cork (Irlanda))</div>
+            * <div class="subtitle">Oportunidades laborales</div>
+            * <div class="subtitle">Posibilidad FP Dual</div>
+            * <div class="subtitle">Curso Inglés B1/B2</div>
+            </div>
+          </textarea>
+        </section>
+          
         <section data-background="img/europa.jpg">
-          <h2>Empresas colaboradoras en la Unión Europea</h2>
+          <h2>
+            <div class="subtitle">Empresas colab. en la UE</div>
+          </h2>
           <img src="img/bayer.jpg" height="120">
           <img src="img/bull.jpg" height="120">
           <img src="img/datagroup.jpg" height="120"><br>
           <img src="img/elisa.jpg" height="120">
           <img src="img/rewe.jpg" height="120">
+          <img src="img/talanx.png" height="120">
         </section>
-        
-      </div>
 
+        <section data-markdown>
+          <textarea data-template>
+            # ¡Gracias!
+          </textarea>
+        </section>
+
+      </div>
     </div>
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
     <script>
-
-      // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
       Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-        // Optional reveal.js plugins
         dependencies: [
-          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src: 'plugin/zoom-js/zoom.js', async: true },
-          { src: 'plugin/notes/notes.js', async: true }
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
         ]
       });
-
     </script>
-
   </body>
 </html>
