@@ -1,4 +1,4 @@
-<img src="img/fpic.png">
+<img src="img/fpic.png" width="200px">
 
 # Presentación del IES Campanillas (Málaga).
 
